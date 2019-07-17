@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlWebservice", "XmlWebservice\XmlWebservice.csproj", "{F018FBB9-C1CE-47FA-A67D-02E2A2152E1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlWebService.Services", "XmlWebService.Services\XmlWebService.Services.csproj", "{44ECFC7B-9EB6-4F74-A14A-C608DA764837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlWebService.Services.Tests", "XmlWebService.Services.Tests\XmlWebService.Services.Tests.csproj", "{3705A1B7-4734-42A2-8C52-4FF88039EB4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{F018FBB9-C1CE-47FA-A67D-02E2A2152E1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F018FBB9-C1CE-47FA-A67D-02E2A2152E1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F018FBB9-C1CE-47FA-A67D-02E2A2152E1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44ECFC7B-9EB6-4F74-A14A-C608DA764837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44ECFC7B-9EB6-4F74-A14A-C608DA764837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44ECFC7B-9EB6-4F74-A14A-C608DA764837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44ECFC7B-9EB6-4F74-A14A-C608DA764837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3705A1B7-4734-42A2-8C52-4FF88039EB4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3705A1B7-4734-42A2-8C52-4FF88039EB4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3705A1B7-4734-42A2-8C52-4FF88039EB4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3705A1B7-4734-42A2-8C52-4FF88039EB4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
