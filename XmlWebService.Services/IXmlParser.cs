@@ -2,5 +2,6 @@
 {
     public interface IXmlParser
     {
+        string ParsePayload(string payLoad);
     }
 }

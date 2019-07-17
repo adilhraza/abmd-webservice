@@ -45,6 +45,12 @@
     <Compile Include="XmlParserTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\XmlWebService.Services\XmlWebService.Services.csproj">
+      <Project>{44ecfc7b-9eb6-4f74-a14a-c608da764837}</Project>
+      <Name>XmlWebService.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
          Other similar extension points exist, see Microsoft.Common.targets.
